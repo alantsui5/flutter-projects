@@ -13,13 +13,14 @@ flutter run
 ### Features
 - Web/Mobile app with calm colors and plays calm music
 
-### Reference
-- https://stackoverflow.com/questions/49466556/flutter-run-method-on-widget-build-complete
-- https://stackoverflow.com/questions/57105154/shortcut-to-extract-flutter-widget-from-ui-layout
-- Flutter Column
-- Flutter Spacer/Margin
+### Knowledge Point and Reference
+- [Extract Widget](https://stackoverflow.com/questions/57105154/shortcut-to-extract-flutter-widget-from-ui-layout)
+- [Text Button](https://docs.flutter.dev/release/breaking-changes/buttons#the-stylefrom-buttonstyle-utility-methods)
+- [Text Style](https://docs.flutter.dev/cookbook/design/themes)
+- [Rows and Column](https://docs.flutter.dev/development/ui/layout#lay-out-multiple-widgets-vertically-and-horizontally)
+- [Spacer and Margin](https://api.flutter.dev/flutter/widgets/Spacer-class.html)
+- [Padding](https://docs.flutter.dev/cookbook/forms/text-input#interactive-example)
+- Flutter State Management
+- [After Widget Load Hook](https://stackoverflow.com/questions/49466556/flutter-run-method-on-widget-build-complete)
 - Flutter Text Styles
 - Flutter Music Player
-- FLutter Padding
-- Flutter State Management
-- 
