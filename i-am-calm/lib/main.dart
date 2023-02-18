@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:assets_audio_player/assets_audio_player.dart';
 
 void main() {
   runApp(const HomeScreen()
@@ -18,7 +19,12 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   initState() {
-    print("initState Called");
+    super.initState();
+    AssetsAudioPlayer.newPlayer().open(
+      Audio("assets/audios/lofi.mp3"),
+      autoStart: false,
+      showNotification: true,
+    );
   }
 
   @override

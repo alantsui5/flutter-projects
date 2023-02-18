@@ -22,5 +22,5 @@ flutter run
 - [Spacer and Margin](https://api.flutter.dev/flutter/widgets/Spacer-class.html)
 - [Padding](https://docs.flutter.dev/cookbook/forms/text-input#interactive-example)
 - [Local State Management](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
-- [After Widget Load Hook](https://stackoverflow.com/questions/49466556/flutter-run-method-on-widget-build-complete)
-- Flutter Music Player
+- [After Widget Load Hook](https://www.geeksforgeeks.org/flutter-initstate/)
+- [Flutter Music Player]()
