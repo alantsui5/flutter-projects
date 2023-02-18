@@ -18,6 +18,7 @@ flutter run
 - [Text Button](https://docs.flutter.dev/release/breaking-changes/buttons#the-stylefrom-buttonstyle-utility-methods)
 - [Text Style](https://docs.flutter.dev/cookbook/design/themes)
 - [Rows and Column](https://docs.flutter.dev/development/ui/layout#lay-out-multiple-widgets-vertically-and-horizontally)
+- [Column Alignment](https://docs.flutter.dev/codelabs/layout-basics#mainaxisalignment-property)
 - [Spacer and Margin](https://api.flutter.dev/flutter/widgets/Spacer-class.html)
 - [Padding](https://docs.flutter.dev/cookbook/forms/text-input#interactive-example)
 - Flutter State Management
