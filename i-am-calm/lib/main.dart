@@ -23,10 +23,12 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              const Spacer(flex:2),
               const Image(
               image: AssetImage("images/meditation2.png"),
               width: 300,
               ),
+              const Spacer(),
               TextButton(
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(Colors.greenAccent),
@@ -36,7 +38,8 @@ class HomeScreen extends StatelessWidget {
                   padding: const EdgeInsets.all(30.0),
                   child: Text("Calm Down", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.green[700]),),
                 )
-              )
+              ),
+              const Spacer(flex:2),
             ],
           ),
         )
