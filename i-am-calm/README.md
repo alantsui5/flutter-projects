@@ -13,7 +13,7 @@ flutter run
 ### Features
 - Web/Mobile app with calm colors and plays calm music
 
-### Knowledge Point and Reference
+### Knowledge Map and Reference
 - [Extract Widget](https://stackoverflow.com/questions/57105154/shortcut-to-extract-flutter-widget-from-ui-layout)
 - [Text Button](https://docs.flutter.dev/release/breaking-changes/buttons#the-stylefrom-buttonstyle-utility-methods)
 - [Rows and Column](https://docs.flutter.dev/development/ui/layout#lay-out-multiple-widgets-vertically-and-horizontally)
