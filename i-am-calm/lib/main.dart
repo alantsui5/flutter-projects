@@ -28,8 +28,14 @@ class HomeScreen extends StatelessWidget {
               width: 300,
               ),
               TextButton(
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all<Color>(Colors.greenAccent),
+                ),
                 onPressed: (){},
-                child: const Text("Calm Down")
+                child: Padding(
+                  padding: const EdgeInsets.all(30.0),
+                  child: Text("Calm Down", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.green[700]),),
+                )
               )
             ],
           ),
