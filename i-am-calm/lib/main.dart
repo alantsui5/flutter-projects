@@ -17,14 +17,27 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
 
+  late AssetsAudioPlayer _assetsAudioPlayer;
+
   @override
   initState() {
     super.initState();
-    AssetsAudioPlayer.newPlayer().open(
-      Audio("assets/audios/lofi.mp3"),
-      autoStart: false,
+    _assetsAudioPlayer = AssetsAudioPlayer.newPlayer();
+    openPlayer();
+  }
+
+  void openPlayer() async {
+    await _assetsAudioPlayer.open(
+      Audio("assets/audio/lofi.mp3"),
       showNotification: true,
+      autoStart: true,
     );
+  }
+
+  @override
+  void dispose() {
+    _assetsAudioPlayer.dispose();
+    super.dispose();
   }
 
   @override
@@ -50,7 +63,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(Colors.greenAccent),
                 ),
-                onPressed: (){},
+                onPressed: (){
+                  _assetsAudioPlayer.playOrPause();
+                },
                 child: Padding(
                   padding: const EdgeInsets.all(30.0),
                   child: Text("Calm Down", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.green[700]),),
