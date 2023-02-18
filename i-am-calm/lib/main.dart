@@ -5,10 +5,21 @@ void main() {
   );
 }
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({
     super.key,
   });
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+
+  @override
+  initState() {
+    print("initState Called");
+  }
 
   @override
   Widget build(BuildContext context) {
